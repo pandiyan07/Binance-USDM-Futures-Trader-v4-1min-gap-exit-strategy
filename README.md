@@ -21,7 +21,7 @@
 ---
 
 ## About The Project
-The **Binance Futures Algorithmic Trading Bot** is an automated cryptocurrency trading system designed to monitor, analyze, and execute leveraged trades on the **BTCUSDT** perpetual futures market. 
+The **Binance Futures Algorithmic Trading Bot** is an automated cryptocurrency trading bot/system designed to monitor, analyze, and execute leveraged trades on the **BTCUSDT** perpetual futures market. 
 
 The system combines real-time WebSocket streaming and REST API historical kline fetching with multi-timeframe technical indicator analysis (`15m` and `5m`) to generate entry and exit signals. Alongside automated order placement—including market entries, stop-loss orders, and trailing stop orders—it features an integrated Flask web dashboard for live monitoring and an automated SMTP email alerting module for trade and system status notifications.
 
@@ -30,7 +30,7 @@ The system combines real-time WebSocket streaming and REST API historical kline 
 ## Built With
 * [Python 3.x](https://www.python.org/)
 * [Flask](https://flask.palletsprojects.com/) — Lightweight web server for the real-time dashboard
-* [Binance Futures API & WebSockets](https://binance-docs.github.io/apidocs/futures/en/) — Market data streaming and order execution
+* [Binance Futures API & WebSockets](https://binance-docs.github.io/apidocs/futures/en/) - Market data streaming and order execution
 * [Pandas](https://pandas.pydata.org/) & [NumPy](https://numpy.org/) — Time-series OHLCV data manipulation and indicator math
 * [TA-Lib](https://ta-lib.org/) — Technical analysis indicator computation
 * [HTML5 / CSS3](https://developer.mozilla.org/en-US/docs/Web/HTML) — Frontend dashboard templates
